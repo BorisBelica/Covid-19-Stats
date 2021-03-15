@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+
+  padding: 50px 20px;
+
+  background-color: #083529;
+  color: white;
+  text-align: center;
+
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+
+
+  main {
+    padding: 50px 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #f45f35;
+  }
+}
+
+.search-box {
+  max-width: 80vw;
+  margin: 20px auto;
+  
+
+  input {
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+}
+
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 0px 2px black;
+  color: black;
+  font-size: 18px;
+
+  transition: .4s ease;
+}
+
+
+
+.stats-list {
+  padding-top: 20px;
+
+  h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 38px;
+  }
+
+  p {
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+
+  span {
+    font-weight: 800;
+  }
+
+  .recovered {
+    color: green;
+  }
+
+  .confirmed {
+    color: orange;
+  }
+
+  .deaths {
+    color: red;
+  }
+
+  .time {
+    font-weight: 100;
+    font-size: 12px;
+  }
+}
+
+
+footer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 14px;
+
+
+
+
+  .who {
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: 100;
+    color: grey;
+  }
+
+  a {
+    color: #f45f35;
+    text-decoration: none;
+  }
+}
